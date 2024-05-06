@@ -1,0 +1,9 @@
+146.190.208.216    # hostname = ubuntu-01
+  146.190.208.190    # hostname = ubuntu-02
+  137.184.155.128    # hostname = centos-01
+  146.190.216.129    # hostname = centos-02
+  198.199.82.174     # hostname = debian-01
+  198.199.77.93      # hostname = debian-02
+  143.198.182.156    # hostname = fedora-01
+  143.244.174.246    # hostname = fedora-02
+  

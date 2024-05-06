@@ -1,0 +1,4 @@
+[defaults]
+inventory = inventory              # Path to the inventory file
+private_key_file = ~/.ssh/id_rsa   # Path to my private SSH Key
+remote_user=root                   # username
