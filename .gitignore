@@ -1,0 +1,5 @@
+.env
+deploy-agent.yml
+inventory.ini
+inventory
+ansible.cfg
