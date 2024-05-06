@@ -180,6 +180,19 @@ To run the playbook, run this command:
 ansible-playbook deploy-agent.yml
 ```
 
+Output
+
+```java
+[WARNING]: Unable to parse ./inventory  # Path to the inventory file as an inventory source
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+PLAY [Install Grafana Agent] *************************************************************************************************************************************************************
+skipping: no hosts matched
+
+PLAY RECAP ******************************************
+```
+
 Note: You can place the deploy-agent.yml, ansible.cfg and inventory files in different directories based on your needs.
 
 ## Check that logs and metrics are being ingested into Grafana Cloud
