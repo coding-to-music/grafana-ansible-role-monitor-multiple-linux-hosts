@@ -247,7 +247,8 @@ To check logs:
 - In the log browser, run the query {instance=“centos-01“} where centos-01 is the hostname of one of the Linux hosts.
   If you see log lines (shown in the example below), logs are being received.
 
-Logs
+![Logs](images/recieved-logs.png "Received Logs")
+
 Received Logs
 
 If no log lines appear, logs are not being collected.
@@ -261,6 +262,9 @@ Run the query {instance=“centos-01“} where centos-01 is the hostname of one 
 If you see a metrics graph and table (shown in the example below), metrics are being received.
 
 metrics view
+
+![Received Metrics](images/recieved-metrics.png "Received Metrics")
+
 Received Metrics
 
 If no metrics appear, metrics are not being collected.
@@ -271,6 +275,6 @@ Now that you have logs and metrics in Grafana, you can use dashboards to view th
 
 dashboard
 
-Pre Built Dashboard
+![Received Metrics](images/pre-built-dashboard.png "Pre Built Dashboard")
 
 Using the Instance dropdown in the dashboard, you can select from the hostnames where you deployed Grafana Agent and start monitoring them.
