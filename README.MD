@@ -195,6 +195,18 @@ PLAY RECAP ******************************************
 
 Note: You can place the deploy-agent.yml, ansible.cfg and inventory files in different directories based on your needs.
 
+To run the playbook in verbose mode, add -vvv
+
+```java
+ansible-playbook deploy-agent.yml -vvv
+```
+
+To validate the syntax of the playbook:
+
+```java
+ansible-playbook --syntax-check deploy-agent.yml 
+```
+
 ## Check that logs and metrics are being ingested into Grafana Cloud
 
 Logs and metrics will soon be available in Grafana Cloud. To test this, use the Explore feature. Click the Explore icon (compass icon) in the vertical navigation bar.
