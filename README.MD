@@ -207,6 +207,13 @@ To validate the syntax of the playbook:
 ansible-playbook --syntax-check deploy-agent.yml 
 ```
 
+Update the remote system with the latest patches
+
+```java
+sudo apt-get update && sudo apt-get upgrade -y
+```
+
+
 ## Check that logs and metrics are being ingested into Grafana Cloud
 
 Logs and metrics will soon be available in Grafana Cloud. To test this, use the Explore feature. Click the Explore icon (compass icon) in the vertical navigation bar.
