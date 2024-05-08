@@ -198,13 +198,13 @@ Note: You can place the deploy-agent.yml, ansible.cfg and inventory files in dif
 To run the playbook in verbose mode, add -vvv
 
 ```java
-ansible-playbook deploy-agent.yml -vvv
+ansible-playbook deploy-agent.yml -i ./inventory.ini -vvv
 ```
 
 To validate the syntax of the playbook:
 
 ```java
-ansible-playbook --syntax-check deploy-agent.yml 
+ansible-playbook --syntax-check deploy-agent.yml
 ```
 
 Update the remote system with the latest patches
@@ -212,7 +212,6 @@ Update the remote system with the latest patches
 ```java
 sudo apt-get update && sudo apt-get upgrade -y
 ```
-
 
 ## Check that logs and metrics are being ingested into Grafana Cloud
 
